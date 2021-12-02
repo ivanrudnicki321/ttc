@@ -3,7 +3,7 @@ let factor = 0;
 let radius;
 
 function setup() {
-  createCanvas(400, 400, WEBGL);
+  createCanvas(windowWidth, windowHeight, WEBGL);
   radius = height / 2;
   angleMode(DEGREES);
   drawCircle(factor);
